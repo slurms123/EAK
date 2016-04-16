@@ -1,0 +1,30 @@
+h1 {
+	text-align: center;
+	margin: auto;
+	font-family: sans-serif;
+}
+
+form {
+	text-align: center;
+	font-family: sans-serif;
+	margin: auto;
+}
+
+button {
+	font-family: sans-serif;
+	background-color: #f0f0f0;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#container {
+	width: 900px;
+	clear: both;
+}
+
+.square {
+	border: 1px solid black;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	border-radius: 5px;

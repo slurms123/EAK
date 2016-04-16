@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<title>Etch-a-Sketch</title>
+</head>
+<body>
+	<h1>Etch-a-Sketch (new and improved)</h1>
+	<p></p>
+	<!--Adding in buttons as part of a form-->
+	<form>
+		<input type="radio" id="singleColor" name="radio" value="One" checked="true"> Single Color
+		<input type="radio" id="multiColor" name="radio" value="Two"> Multi Color
+		<input type="radio" id ="clearStyles" name="radio" value="Two"> Clear Styles
+		
+	</form>
+	<p><button id="dButton" onclick="clearGrid()">Change Size</button>
+	<p></p>
+
+	<div id="container">
+	</div>
+
+
+</body>
+</html>
